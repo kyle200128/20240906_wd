@@ -1,0 +1,182 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+main {
+  margin-top: 20px;
+}
+
+
+#intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-text {
+  max-width: 40%;
+}
+
+.intro-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.intro-text .video-link {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #0070c9;
+}
+
+.intro-description {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #666;
+}
+
+.intro-image {
+  max-width: 50%;
+}
+
+
+#a17-pro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.chip-image {
+  max-width: 25%; 
+}
+
+.chip-text {
+  max-width: 65%;
+}
+
+.chip-text h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.chip-text p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.btn-arrow {
+  display: inline-block;
+  text-decoration: none;
+  color: #0070c9;
+}
+
+
+#gallery {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#gallery h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 250px; 
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+.btn-box {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #0070c9;
+  color: #0070c9;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+#purchase-info {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#purchase-info h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+#purchase-info p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f2f2f2;
+}
+
+.copy-right {
+  font-size: 14px;
+  color: #666;
+}
